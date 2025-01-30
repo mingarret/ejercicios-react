@@ -1,0 +1,57 @@
+/* Contenedor principal del ejercicio */
+.ejercicio5-container {
+    text-align: center; /* Centra el contenido */
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  /* Título del ejercicio */
+  .ejercicio5-title {
+    font-size: 2rem; /* Tamaño del título */
+    color: #333; /* Color gris oscuro */
+    margin-bottom: 20px; /* Espaciado inferior */
+  }
+  
+  /* Botón interactivo */
+  .ejercicio5-button {
+    padding: 15px 30px; /* Espaciado interno del botón */
+    font-size: 1.2rem; /* Tamaño del texto */
+    color: white; /* Texto blanco */
+    background-color: #2575fc; /* Fondo azul */
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Animaciones suaves */
+  }
+  
+  /* Efecto hover: cambia el fondo y aumenta ligeramente el tamaño */
+  .ejercicio5-button:hover {
+    background-color: #6a11cb; /* Cambia el color a morado */
+    transform: scale(1.1); /* Aumenta el tamaño del botón */
+  }
+  
+  /* Efecto al hacer clic */
+  .ejercicio5-button:active {
+    background-color: #4a90e2; /* Color más claro al hacer clic */
+    transform: scale(1.05); /* Reduce ligeramente el aumento */
+  }
+  
+  /* Mensaje mostrado al usuario */
+  .ejercicio5-message {
+    margin-top: 20px; /* Espaciado superior */
+    font-size: 1.5rem; /* Tamaño del texto */
+    color: #4caf50; /* Color verde */
+    animation: fade-in 0.5s ease-in-out; /* Animación de aparición */
+  }
+  
+  /* Animación para que el mensaje aparezca suavemente */
+  @keyframes fade-in {
+    from {
+      opacity: 0; /* Comienza invisible */
+      transform: translateY(-10px); /* Comienza ligeramente desplazado hacia arriba */
+    }
+    to {
+      opacity: 1; /* Termina completamente visible */
+      transform: translateY(0); /* Vuelve a su posición original */
+    }
+  }
+  

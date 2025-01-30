@@ -1,0 +1,75 @@
+/* Contenedor principal que ocupa toda la pantalla */
+.ejercicio10-container {
+    display: flex; /* Usa Flexbox */
+    flex-direction: column; /* Elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    height: 100vh; /* Ocupa el 100% del alto de la pantalla */
+    background-color: #f0f0f0; /* Fondo suave */
+  }
+  
+  /* Estilo del formulario */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px; /* Ancho fijo */
+  }
+  
+  /* Estilo del título */
+  h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Pregunta */
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo del textarea */
+  textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: left;
+    resize: none;
+  }
+  
+  /* Botón de enviar */
+  button {
+    background-color: #2575fc;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Efecto hover del botón */
+  button:hover {
+    background-color: #6a11cb;
+    transform: scale(1.05);
+  }
+  
+  /* Mensajes de validación y error */
+  .mensaje {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  /* Mensaje de error */
+  .error {
+    color: red;
+  }
+  

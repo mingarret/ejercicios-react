@@ -1,0 +1,70 @@
+/* Contenedor principal del ejercicio */
+.ejercicio6-container {
+    text-align: center; /* Centra todos los elementos */
+    padding: 20px; /* Espaciado interno */
+    max-width: 800px; /* Limita el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+  }
+  
+  /* Título del ejercicio */
+  .ejercicio6-title {
+    font-size: 2rem; /* Tamaño del título */
+    color: #333; /* Color del texto */
+    margin-bottom: 20px; /* Espaciado inferior */
+  }
+  
+  /* Información de la escultura */
+  .escultura-info {
+    margin-bottom: 20px; /* Espaciado inferior */
+  }
+  
+  .escultura-nombre {
+    font-size: 1.5rem; /* Tamaño del nombre */
+    color: #2575fc; /* Color azul */
+  }
+  
+  .escultura-artista {
+    font-size: 1.2rem; /* Tamaño del texto */
+    margin: 10px 0; /* Espaciado superior e inferior */
+  }
+  
+  /* Descripción de la escultura */
+  .escultura-descripcion {
+    font-size: 1.1rem; /* Tamaño del texto */
+    color: #555; /* Color gris oscuro */
+    margin: 15px 0; /* Espaciado superior e inferior */
+  }
+  
+  /* Imagen de la escultura */
+  .escultura-imagen {
+    max-width: 100%; /* Imagen ajustada al contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 20px; /* Espaciado superior */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para resaltar */
+  }
+  
+  /* Botones */
+  .ejercicio6-button {
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 1rem; /* Tamaño del texto */
+    color: white; /* Color del texto */
+    background-color: #2575fc; /* Fondo azul */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Transiciones suaves */
+    margin: 10px; /* Espaciado entre botones */
+  }
+  
+  /* Efecto hover: cambia el color de fondo */
+  .ejercicio6-button:hover {
+    background-color: #6a11cb; /* Cambia el fondo a morado */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+  }
+  
+  /* Efecto active: reduce el tamaño ligeramente */
+  .ejercicio6-button:active {
+    transform: scale(1.05); /* Reduce ligeramente el tamaño */
+  }
+  

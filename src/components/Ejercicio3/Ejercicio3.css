@@ -1,0 +1,30 @@
+/* Contenedor principal del ejercicio */
+.ejercicio3-container {
+    text-align: center; /* Centra el texto y los elementos */
+    padding: 20px; /* Añade espacio interno */
+  }
+  
+  /* Título del ejercicio */
+  .ejercicio3-title {
+    font-size: 2rem; /* Tamaño grande para el título */
+    color: #2575fc; /* Color azul */
+  }
+  
+  /* Campo de entrada de texto */
+  .ejercicio3-input {
+    padding: 10px; /* Espaciado interno */
+    font-size: 1rem; /* Tamaño del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde gris claro */
+    width: 80%; /* Ancho relativo al contenedor */
+    max-width: 400px; /* Máximo ancho del input */
+    margin-bottom: 20px; /* Espaciado inferior */
+  }
+  
+  /* Texto dinámico mostrado en la pantalla */
+  .ejercicio3-output {
+    font-size: 1.5rem; /* Tamaño del texto mostrado */
+    color: #6a11cb; /* Color morado */
+    margin-top: 20px; /* Espaciado superior */
+  }
+  

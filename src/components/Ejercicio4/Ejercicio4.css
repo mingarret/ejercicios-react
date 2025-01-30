@@ -1,0 +1,48 @@
+/* Contenedor principal del ejercicio */
+.ejercicio4-container {
+  text-align: center; /* Centra los elementos */
+  padding: 20px; /* Espaciado interno */
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  display: flex; /* Usa flexbox para centrar contenido */
+  flex-direction: column; /* Organiza los elementos en columna */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  transition: background-color 0.5s ease; /* Transición suave para el cambio de color */
+}
+
+/* Título del ejercicio */
+.ejercicio4-title {
+  font-size: 2.5rem; /* Tamaño grande del título */
+  color: #333; /* Color del texto */
+}
+
+/* Descripción debajo del título */
+.ejercicio4-description {
+  font-size: 1.2rem; /* Tamaño moderado */
+  margin: 10px 0 20px; /* Espaciado superior e inferior */
+  color: #555; /* Color gris oscuro */
+}
+
+/* Contenedor de los botones */
+.ejercicio4-buttons {
+  display: flex; /* Organiza los botones en fila */
+  gap: 10px; /* Espaciado entre los botones */
+}
+
+/* Estilo base para los botones */
+.ejercicio4-button {
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 1rem; /* Tamaño del texto */
+  color: white; /* Color del texto (blanco) */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Animación para hover */
+}
+
+/* Efecto al pasar el mouse sobre los botones */
+.ejercicio4-button:hover {
+  transform: scale(1.1); /* Aumenta el tamaño ligeramente */
+}
+
+  

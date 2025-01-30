@@ -1,0 +1,54 @@
+/* Estilo general del formulario */
+form {
+    max-width: 400px; /* Limita el ancho del formulario */
+    margin: 50px auto; /* Centra el formulario vertical y horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Fondo claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centra el contenido */
+    font-family: Arial, sans-serif; /* Fuente base */
+  }
+  
+  /* Estilo de los inputs */
+  input {
+    width: 90%; /* Ancho relativo al formulario */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Espaciado superior e inferior */
+    font-size: 1rem; /* Tamaño del texto */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye padding y border en el ancho */
+  }
+  
+  /* Estilo del texto del saludo */
+  h1 {
+    font-size: 1.5rem; /* Tamaño del texto */
+    color: #333; /* Color gris oscuro */
+    margin-top: 20px; /* Espaciado superior */
+  }
+  
+  /* Estilo del botón */
+  button {
+    background-color: #2575fc; /* Azul vibrante */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 1rem; /* Tamaño del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave */
+  }
+  
+  /* Efecto hover del botón */
+  button:hover {
+    background-color: #6a11cb; /* Cambia el fondo a morado */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+  }
+  
+  /* Efecto active del botón */
+  button:active {
+    background-color: #4a90e2; /* Azul más claro al hacer clic */
+    transform: scale(1); /* Restaura el tamaño */
+  }
+  

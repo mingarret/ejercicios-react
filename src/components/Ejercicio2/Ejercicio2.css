@@ -1,0 +1,41 @@
+/* Contenedor principal del ejercicio */
+.ejercicio2-container {
+    text-align: center; /* Centra el texto y los elementos */
+    padding: 20px; /* Añade espacio interno */
+  }
+  
+  /* Título del ejercicio */
+  .ejercicio2-title {
+    font-size: 2rem; /* Tamaño grande para el título */
+    color: #2575fc; /* Color azul */
+  }
+  
+  /* Estilo para mostrar el valor del contador */
+  .ejercicio2-counter {
+    font-size: 1.5rem; /* Tamaño del texto del contador */
+    margin: 15px 0; /* Espaciado superior e inferior */
+  }
+  
+  /* Contenedor de los botones */
+  .ejercicio2-buttons {
+    margin-top: 20px; /* Espaciado entre el contador y los botones */
+  }
+  
+  /* Botones para las acciones del contador */
+  .ejercicio2-button {
+    margin: 0 10px; /* Espaciado horizontal entre botones */
+    padding: 10px 20px; /* Tamaño interno del botón */
+    font-size: 1rem; /* Tamaño del texto del botón */
+    color: white; /* Color del texto */
+    background-color: #2575fc; /* Color azul de fondo */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el puntero a un cursor de clic */
+    transition: background-color 0.3s ease; /* Animación suave para cambios de color */
+  }
+  
+  /* Efecto al pasar el mouse sobre los botones */
+  .ejercicio2-button:hover {
+    background-color: #6a11cb; /* Cambia el color de fondo a morado */
+  }
+  

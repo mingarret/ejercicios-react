@@ -1,0 +1,51 @@
+.ejercicio1-container {
+    /* Flexbox para centrar el contenido vertical y horizontalmente */
+    display: flex;
+    flex-direction: column; /* Elementos organizados en columna */
+    align-items: center; /* Alinea los elementos al centro horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    height: 100vh; /* El contenedor ocupa toda la altura de la pantalla */
+    
+    /* Fondo con un degradado de colores */
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+  
+    /* Colores de texto y fuente */
+    color: white; /* El texto es blanco */
+    font-family: 'Arial', sans-serif; /* Fuente limpia y legible */
+    
+    /* Centrado del texto y separación */
+    text-align: center; 
+    padding: 20px; /* Espaciado interno */
+    
+    /* Sombra para dar un efecto "flotante" al contenedor */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .ejercicio1-title {
+    font-size: 3rem; /* Tamaño grande para el título */
+    margin: 0; /* Elimina los márgenes del título */
+    
+    /* Animación de aparición suave */
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .ejercicio1-description {
+    font-size: 1.5rem; /* Tamaño moderado para el subtítulo */
+    margin-top: 20px; /* Añade espacio entre el título y el párrafo */
+    
+    /* Animación de aparición suave (un poco más lenta que el título) */
+    animation: fadeIn 3s ease-in-out;
+  }
+  
+  /* Animación de entrada suave desde abajo */
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Inicia invisible */
+      transform: translateY(20px); /* Comienza desplazado hacia abajo */
+    }
+    to {
+      opacity: 1; /* Termina completamente visible */
+      transform: translateY(0); /* Regresa a su posición normal */
+    }
+  }
+  
