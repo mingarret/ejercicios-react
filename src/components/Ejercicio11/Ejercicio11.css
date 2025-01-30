@@ -1,0 +1,87 @@
+/* Contenedor principal */
+.ejercicio11-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input */
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Botón */
+  button {
+    background-color: #2575fc;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Efecto hover */
+  button:hover {
+    background-color: #6a11cb;
+    transform: scale(1.05);
+  }
+  
+  /* Lista de tareas */
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Tarea individual */
+  .task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  /* Tareas completadas */
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  /* Botones de edición y eliminación */
+  .task-list button {
+    margin-left: 5px;
+    background-color: #e74c3c;
+  }
+  
+  .task-list button:hover {
+    background-color: #c0392b;
+  }
+  
